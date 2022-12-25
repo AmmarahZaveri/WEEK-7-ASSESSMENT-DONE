@@ -1,0 +1,20 @@
+Take note of the timing result:
+Results for the extraLargeArray
+insert 979.449 ms
+append 5.257 ms
+Results for the tinyArray
+insert 6.4 μs
+append 5.6 μs
+Results for the smallArray
+insert 10.3 μs
+append 5.5 μs
+Results for the mediumArray
+insert 119.6 μs
+append 35.2 μs
+Results for the largeArray
+insert 7.0986 ms
+append 223.9 μs
+
+As you can see the timing results for calling all the functions with all of the differently sized arrays
+(tinyArray, smallArray, mediumArray, largeArray, and extraLargeArray) are all different
+I can easily compare the different values for the timers in relation to the size of the array that was passed into each function.
